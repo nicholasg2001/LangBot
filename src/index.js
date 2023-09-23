@@ -37,13 +37,6 @@ for (const file of eventFiles) {
 		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
-client.on('messageCreate', (message) => {
-	// Ignore messages sent by the bot itself
-	if (message.author.bot) return;
-  
-	if (message.content === '!hello') {
-	  message.reply('Hello, world!');
-	}
-  });
 
-client.login(process.env.TOKEN);
+
+client.login(process.env.DISCORD_TOKEN);
