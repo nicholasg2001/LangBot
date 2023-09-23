@@ -1,0 +1,23 @@
+{
+  "name": "langbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.0.1",
+    "@google-cloud/translate": "^8.0.2",
+    "@iamtraction/google-translate": "^2.0.1",
+    "axios": "^1.5.0",
+    "discord.js": "^14.13.0",
+    "docker": "^0.2.14",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "request": "^2.88.2"
+  }
+}
